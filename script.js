@@ -8,14 +8,14 @@ let gif=document.getElementById('gif');
 let songItems=Array.from(document.getElementsByClassName('songItem'));
 let masterSong=document.getElementById("masterSong");
 let songs=[
-    {SongName:'Madhaba',sourcePath:'./Song/1.mp3',coverPath:'Cover1.jpeg'},
-    {SongName:'Madhaba1',sourcePath:'./Song/2.mp3',coverPath:'Cover2.jpeg'},
-    {SongName:'Madhaba2',sourcePath:'./Song/3.mp3',coverPath:'Cover3.jpeg'},
-    {SongName:'Madhaba3',sourcePath:'./Song/4.mp3',coverPath:'Cover4.jpeg'},
-    {SongName:'Madhaba4',sourcePath:'./Song/5.mp3',coverPath:'Cover5.jpeg'},
-    {SongName:'Madhaba5',sourcePath:'./Song/6.mp3',coverPath:'Cover6.jpeg'},
-    {SongName:'Madhaba6',sourcePath:'./Song/7.mp3',coverPath:'Cover7.jpeg'},
-    {SongName:'Madhaba7',sourcePath:'./Song/8.mp3',coverPath:'Cover8.jpeg'}
+    {SongName:'Teri Umeed Tera',sourcePath:'./Song/1.mp3',coverPath:'Cover1.jpeg'},
+    {SongName:'Feel my Love',sourcePath:'./Song/2.mp3',coverPath:'Cover2.jpeg'},
+    {SongName:'Jeeta tha Jiskeliye',sourcePath:'./Song/3.mp3',coverPath:'Cover3.jpeg'},
+    {SongName:'Kisise tum Pyar',sourcePath:'./Song/4.mp3',coverPath:'Cover4.jpeg'},
+    {SongName:'A Surujmukhi',sourcePath:'./Song/5.mp3',coverPath:'Cover5.jpeg'},
+    {SongName:'Tu meri Zindegi',sourcePath:'./Song/6.mp3',coverPath:'Cover6.jpeg'},
+    {SongName:'Sambalpuria Babu',sourcePath:'./Song/7.mp3',coverPath:'Cover7.jpeg'},
+    {SongName:'AyehoMeri Zindegi',sourcePath:'./Song/8.mp3',coverPath:'Cover8.jpeg'}
 ]
 songItems.forEach((element,i)=>{
     console.log(element,i);
